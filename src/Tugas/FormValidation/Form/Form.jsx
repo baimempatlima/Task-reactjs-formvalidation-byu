@@ -125,7 +125,7 @@ export default class Form extends React.Component {
         {this.state.isFormSubmitted ? (
           <div className="alert alert-success text-center" role="alert" style={{ margin: "20px", padding: "20px auto" }}>
             <h4 className="alert-heading">
-              Terima kasih telah melakukan <strong>Registrasi</strong>,berikut ini detail data Anda:
+              Terima kasih telah melakukan <strong>Registrasi</strong>, detail data Anda sebagai berikut:
             </h4>
             <p>Nama Depan: {this.state.namaDepan}</p>
             <p>Nama Belakang: {this.state.namaBelakang}</p>
